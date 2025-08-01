@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "743743963827",
+    "firebase_url": "https://cssc-antenas-default-rtdb.firebaseio.com",
+    "project_id": "cssc-antenas",
+    "storage_bucket": "cssc-antenas.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743743963827:android:20022920c545e0340926c6",
+        "android_client_info": {
+          "package_name": "com.example.csscantenas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvsyihss6dEQQjm5Uil23YdsXc_WwYEPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

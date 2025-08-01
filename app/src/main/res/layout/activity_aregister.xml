@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E1E1E"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ipInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="IP de la antena"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BBBBBB"
+            android:background="#2A2A2A"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/nombreInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre de la antena"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BBBBBB"
+            android:background="#2A2A2A"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/usuarioInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usuario SSH"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BBBBBB"
+            android:background="#2A2A2A"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña SSH"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BBBBBB"
+            android:background="#2A2A2A"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agregar Antena"
+            android:textAllCaps="false"
+            android:backgroundTint="#3C8AFF"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp" />
+
+        <Spinner
+            android:id="@+id/antennaSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginBottom="20dp"
+            android:background="#2A2A2A" />
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selecciona una antena para ver datos..."
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>
